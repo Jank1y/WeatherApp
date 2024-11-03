@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,24 +9,33 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Weather App Beta</title>
 </head>
-
 <body>
     <div class="main">
         <div class="container">
-            <div class="serachbar">
-                <input type="text" id="city" placeholder="Enter City Name">
-                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <div class="searchbar">
+                <input type="text" id="locationInput" placeholder="Enter City Name">
+                <button id="searchbutton">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
             </div>
             <div class="weather">
-                <i class="fas fa-water"></i>
-                <p>Humidity</p>
-                <i class="fas fa-wind"></i>
-                <p>Wind Speed</p>
+                <h1 id="location">Weather Info</h1>
+                <img id="weatherIcon" src="" alt="Weather Icon">
+                <p id="temperature"></p>
+                <p id="description"></p>
+            </div>
+            <div class="weather-info">
+                <div class="humidity">
+                    <i class="fas fa-water"></i>
+                    <p id="humidity"></p>
+                </div>
+                <div class="wind">
+                    <i class="fas fa-wind"></i>
+                    <p id="windSpeed"></p>
+                </div>
             </div>
         </div>
-
     </div>
-
+    <script src="index.js"></script>
 </body>
-
 </html>
