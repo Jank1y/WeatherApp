@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: whitesmoke;
+    height: 50%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    pad: 20px;
+    gap: 15px;
+    border-radius: 30px;
+}
+
+.weather {
+    background: goldenrod;
+    width: 50%;
+    height: auto;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
