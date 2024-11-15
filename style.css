@@ -87,4 +87,19 @@
         width: 100px;
         height: 100px;
     }
+    .container {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 154px) {
+    .image img {
+        width: 50px;
+        height: 50px;
+    }
+    .weatherinfo {
+        font-size: 15px;
+    }
+    .weather {
+        font-size: 15px;
+    }
 }
